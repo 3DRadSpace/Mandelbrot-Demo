@@ -10,6 +10,8 @@ Unline an usual `PostProcessEffect` instance, this effect doesn't use the backbu
 
 The shader is rendered by the game engine by submitting the effect into the list of post processes `PostProcesses->Add<E>()`.
 
+# Playing the project
+Use arrow keys to move the screen, Q and E to zoom.
 
 # Building the project
 You'll need a compiled copy of 0.1.0Alpha of 3DRadSpace. 
