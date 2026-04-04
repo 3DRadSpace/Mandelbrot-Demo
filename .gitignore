@@ -39,3 +39,8 @@
 
 # debug information files
 *.dwo
+*.opendb
+/.vs
+Mandelbrot render/Logs.log
+/Mandelbrot render/x64
+/x64
