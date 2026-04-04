@@ -60,7 +60,12 @@ public:
 	~MyGame() override = default;
 };
 
-int main()
+int __stdcall WinMain(
+	HINSTANCE hInstance,
+	HINSTANCE hPrevInstance,
+	LPSTR     lpCmdLine,
+	int       nShowCmd
+)
 {
 	MyGame game;
 	game.Run();
