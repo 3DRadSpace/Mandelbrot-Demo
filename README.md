@@ -14,6 +14,6 @@ The shader is rendered by the game engine by submitting the effect into the list
 Use arrow keys to move the screen, Q and E to zoom.
 
 # Building the project
-You'll need a compiled copy of 0.1.0Alpha of 3DRadSpace. 
+You'll need a compiled copy of 3DRadSpace 0.1.0Alpha. 
 
 Edit the linker settings to the path of 3DRadSpace installation directory (There will be a method in the future to use PATH variables or VS solution macros).
