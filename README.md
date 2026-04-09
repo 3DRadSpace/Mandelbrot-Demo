@@ -6,9 +6,9 @@ Video here: https://youtu.be/Et76ZaDpUaQ
 
 This project demonstrates low level capabilities of the game engine such as low level access to the GAPIs (Graphics APIs) and the inclusion of shaders in an C++ project using a class inheriting `PostProcessEffect`.
 
-Unline an usual `PostProcessEffect` instance, this effect doesn't use the backbuffer, but directly writes to the backbuffer.
+Unlike an usual `PostProcessEffect` instance, this effect doesn't read the main render target, but directly writes to the backbuffer.
 
-The shader is rendered by the game engine by submitting the effect into the list of post processes `PostProcesses->Add<E>()`.
+The shader is rendered by the game engine by submitting the effect into the list of post processes by calling `PostProcesses->Add<E>()`.
 
 # Playing the project
 Use arrow keys to move the screen, Q and E to zoom.
